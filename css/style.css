@@ -1,0 +1,173 @@
+
+#intro {
+background-color:  rgb(211, 215, 209);
+text-align: center;
+margin-top: 30px;
+margin-left: 70px;
+margin-right: 70px;
+margin-bottom: 30px;
+border-radius: 5px;
+padding: 5px;
+}
+
+
+#header-bkgndImg {
+    
+
+ background-image: url("/imgs/IMG_9376.jpeg") no repeat center right/cover;
+
+}
+
+#head{
+/* padding-top: 5px; */
+
+}
+
+#head div{
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+#head img{
+padding-left: 10px;
+width: 15%;
+border-radius: 20px;
+
+}
+
+#head a{
+text-decoration: none;
+font-size:  20px;
+color:rgb(240, 107, 12);
+}
+
+#head a:hover{
+    color: rgb(163, 120, 89);
+    }
+#navbar{
+list-style: none;
+border: solid;
+border-radius: 20px;
+overflow: auto;
+background-color: rgb(141, 131, 131);
+/* padding: 5px; */
+padding-bottom: 10px;
+
+
+color: whitesmoke;
+
+}
+
+#navbar li{
+list-style: none;
+float: left; 
+padding-left: 10px;
+padding-right: 10px; 
+/* margin-bottom: 5px;  */
+font-size: larger;
+color:rgb(240, 107, 12)
+}
+
+
+#navbar div{
+float: right;
+}
+
+.cont {
+margin: 50px;
+border-radius: 10px;
+}
+
+.cont2 {
+margin: 50px;
+border-radius: 20px;
+}
+
+#colm_one {
+margin:0;
+padding:0;
+display: flex;
+flex-direction: row;
+
+}
+.box {
+border: solid;
+border-color: bisque;
+margin: 5px;
+padding: 5px;
+border-radius: 5px;
+
+}
+
+.btn_one {
+margin-left: 40%;
+}
+.proc_display {
+display: flex;
+}
+
+
+.row-g{
+    padding-left: 70px;
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+    
+    
+}
+.col-m{
+    
+    margin: 10px; 
+}
+
+#likes{
+    border: solid;
+    width: 400px;
+    height: 404px;
+    border-radius: 5px;
+    border-color: bisque;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+#likes li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    justify-items: left;
+    font-size: large;
+    line-height: 2em;
+    padding: ;
+
+}
+footer{
+    background-color: rgb(141, 131, 131);
+    color:rgb(240, 107, 12);
+    overflow: hidden;
+    border-radius: 20PX;
+    text-align: center;
+    padding: 10px;
+
+}
+
+/* menu */
+li a{
+text-decoration: none;
+float: left; 
+padding-left: 10px;
+padding-right: 10px; 
+/* margin-bottom: 5px;  */
+font-size:large;
+color:rgb(240, 107, 12);
+
+}
+
+
+
