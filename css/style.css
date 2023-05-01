@@ -13,30 +13,47 @@ padding: 5px;
 
 #header-bkgndImg {
     
-
  background-image: url("/imgs/IMG_9376.jpeg") no repeat center right/cover;
 
 }
 
-#head{
+.intro{
 /* padding-top: 5px; */
+display: flex;
+flex-direction: row;
+padding-right: 0px;
+padding-top: 20px;
+margin-bottom: 10px;
+
 
 }
 
-#head div{
-margin: 0;
-padding: 0;
-display: flex;
-flex-direction: column;
-align-items: center;
+#welcome{
+    margin-top: 10px;
+    background-color:  rgb(211, 215, 209);
+    border :solid, 0.5px rgb(237, 164, 75);
+    border-radius: 10px;
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 20px;
+    
+}
 
+
+#contact_info {
+    padding-left: 70px;
+    
+}
+#contact_info h2{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
 }
 
 #head img{
 padding-left: 10px;
-width: 15%;
-/*border-radius: 20px;*/
-    border-radius: 50%;
+width: 35%;
+border-radius: 50%;
 
 }
 
@@ -55,8 +72,9 @@ border: solid;
 border-radius: 20px;
 overflow: auto;
 background-color: rgb(141, 131, 131);
-/* padding: 5px; */
 padding-bottom: 10px;
+
+
 color: whitesmoke;
 
 }
@@ -66,7 +84,6 @@ list-style: none;
 float: left; 
 padding-left: 10px;
 padding-right: 10px; 
-/* margin-bottom: 5px;  */
 font-size: larger;
 color:rgb(240, 107, 12)
 }
@@ -115,7 +132,8 @@ display: flex;
     margin:0;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    
 }
 .col-m{
     
@@ -129,9 +147,12 @@ display: flex;
     border-radius: 5px;
     border-color: bisque;
     text-align: center;
-    
+
 }
 
+#likes ul{
+    padding-left: 5px;
+}
 #likes li{
     text-decoration: none;
     list-style: none;
@@ -139,8 +160,13 @@ display: flex;
     justify-items: left;
     font-size: large;
     line-height: 2em;
-    padding: ;
+   
+}
 
+#likes h3{
+    border-bottom: 3px solid rgb(240, 107, 12);
+    margin-right: 150px;
+    margin-left: 150px;
 }
 footer{
     background-color: rgb(141, 131, 131);
@@ -158,11 +184,7 @@ text-decoration: none;
 float: left; 
 padding-left: 10px;
 padding-right: 10px; 
-/* margin-bottom: 5px;  */
 font-size:large;
 color:rgb(240, 107, 12);
 
 }
-
-
-
