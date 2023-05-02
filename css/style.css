@@ -26,22 +26,25 @@ padding-top: 20px;
 margin-bottom: 10px;
 
 
+
 }
 
 #welcome{
     margin-top: 10px;
+    margin-right: 5px;
     background-color:  rgb(211, 215, 209);
-    border :solid, 0.5px rgb(237, 164, 75);
+    /* border :solid, 0.5px rgb(237, 164, 75); */
     border-radius: 10px;
     overflow: auto;
-    padding-left: 10px;
-    padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 15px;
     
 }
 
 
 #contact_info {
-    padding-left: 70px;
+    padding-left: 150px;
     
 }
 #contact_info h2{
@@ -50,20 +53,20 @@ margin-bottom: 10px;
     
 }
 
-#head img{
+.intro img{
 padding-left: 10px;
 width: 35%;
 border-radius: 50%;
 
 }
 
-#head a{
+.intro a{
 text-decoration: none;
 font-size:  20px;
 color:rgb(240, 107, 12);
 }
 
-#head a:hover{
+.intro a:hover{
     color: rgb(163, 120, 89);
     }
 #navbar{
@@ -187,4 +190,11 @@ padding-right: 10px;
 font-size:large;
 color:rgb(240, 107, 12);
 
+}
+
+@media screen and (max-width: 600px) {
+    .intro footer head {
+    width: 100%;
+    margin-top: 0;
+    }
 }

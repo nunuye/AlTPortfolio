@@ -23,42 +23,39 @@
   </head>
   <header>
     <div>
-      
-        <div id="head">
-            <div class="intro">
-              <div id="contact_info">
-                <img src="./imgs/IMG_3691.jpg" alt="Image not found." />
-                <p><h2>Alem Tsega / <a href="/cv/RESUME_Alem.Tsega.pdf" target="_blank">Resume</a> </h2> 
-                 (202)492-4757 <br>
-                  Alem.t.tsega.gmail.com </p>
-                
-              </div>
-              <div id="welcome">
-                
-                <p><span style="font-size:2em">Hi. Welcome to my page. </span><br/><br/>
-I am an entusiatic Entry Level Developer looking for opprtunities. Check out my resume and some of the projects I worked on. Java, HTML, CSS, MySQL, React, Maven, SpringBoot, VsCode, Eclipse are some of the languages and technologies I am enthusiatic about. Please reach out if you would like to know more about me. </p>
-              </div>
-            </div>
+      <div class="intro">
+        <div id="contact_info">
+          <img src="./imgs/IMG_3691.jpg" alt="Image not found." />
+          <p><h2>Alem Tsega / <a href="/cv/RESUME_Alem.Tsega.pdf" target="_blank">Resume</a> </h2> 
+            (202)492-4757 <br>
+            Alem.t.tsega@gmail.com </p>
+            <img src="https://i.gifer.com/3jnq.gif" alt="">
+          
         </div>
+        <div id="welcome">
+          
+          <p><span style="font-size:2em">Hi. Welcome to my page. </span><br/><br/>
+I am an entusiatic Entry Level Developer looking for opprtunities. Check out my resume and some of the projects I worked on. Java, HTML, CSS, MySQL, React, Maven, SpringBoot, VsCode, Eclipse are some of the languages and technologies I am enthusiatic about. Please reach out if you would like to know more about me. </p>
 
-        <nav id="navbar">
-          <div>
-            <img src="" alt="" />
-              <ul>
-                <li><a href="/index" class="current">Home</a></li>
-                <li> <a href="./contact" target="_blank">Contact</a> </li>
-                <li>
-                 
-                  <select name="Projects" onChange="window.open(location = this.value); return false;"> 
-                    <option value="">Projects</option>
-                    <option value="https://happy-jang-a25af7.netlify.app/">Project One</option> 
-                    <option value="https://glittering-pasca-640e5a.netlify.app/">Project Two</option>
-                    <option value="https://github.com/craftNunuye/git-class">Git Repos</option>
-                  </select>   
-                </li>
-              </ul>
-            </div>
-        </nav>
+</div>
+    </div>
+      <nav id="navbar">
+        <div>
+          <img src="" alt="" />
+            <ul>
+              <li><a href="/index" class="current">Home</a></li>
+              <li> <a href="./contact" target="_blank">Contact</a> </li>
+              <li>
+                <select name="Projects" onChange="window.open(location = this.value); return false;"> 
+                  <option value="">Projects</option>
+                  <option value="https://happy-jang-a25af7.netlify.app/">Project One</option> 
+                  <option value="https://glittering-pasca-640e5a.netlify.app/">Project Two</option>
+                  <option value="https://github.com/craftNunuye/git-class">Git Repos</option>
+                </select>   
+              </li>
+            </ul>
+          </div>
+      </nav>
     </div>
   </header>
 
@@ -85,9 +82,7 @@ I am an entusiatic Entry Level Developer looking for opprtunities. Check out my 
               eveniet necessitatibus? Architecto dolore repellendus aliquam
               neque ipsum quia, deleniti error vero sed, fuga unde?
             </p>
-            <div class="btn_one">
-              <button>Read More</button>
-            </div>
+            
           </div>
 
           <div class="box">
@@ -100,21 +95,20 @@ I am an entusiatic Entry Level Developer looking for opprtunities. Check out my 
               eveniet necessitatibus? Architecto dolore repellendus aliquam
               neque ipsum quia, deleniti error vero sed, fuga unde?
             </p>
-            <button class="btn_one">Read More</button>
+            
           </div>
 
-          <div class="box">
+          <div class="box" >
             <h3>My github</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-              deleniti sequi quisquam tenetur voluptas enim. Optio facere magnam
-              expedita explicabo cumque inventore corporis quo deserunt delectus
-              fugit aspernatur quae cupiditate animi eligendi saepe, natus ex
-              eveniet necessitatibus? Architecto dolore repellendus aliquam
-              neque ipsum quia, deleniti error vero sed, fuga unde?
+              Explore my github repos where I posted projects I worked on using JPA, Webservices, Microservices, Thymeleaf and other methodologies and design patterns.  
             </p>
-            <button class="btn_one">Read More</button>
+            <!-- <button class="btn_one">Read More</button> -->
+            <button ONCLICK="ShowAndHide()">Read More</button>
+            <DIV ID="btn-one" STYLE="display:none">Text to be shown and hidden</DIV>
+
           </div>
+
         </div>
       </div>
       <!-- Third section -->
@@ -161,10 +155,12 @@ I am an entusiatic Entry Level Developer looking for opprtunities. Check out my 
         </div>
       </section>
     </main>
+    <script src="app.js"></script>
   </body>
 
   <footer>
     <p>&copy;2023 A.TSEGA</p>
     
   </footer>
+
 </html>
