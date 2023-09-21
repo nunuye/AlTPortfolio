@@ -44,20 +44,32 @@ margin-bottom: 10px;
 
 
 #contact_info {
-    padding-left: 150px;
+    padding-left: 140px;
     
 }
 #contact_info h2{
+    padding-left: 15px;
     padding-bottom: 0;
-    margin-bottom: 0;
-    
+    margin-bottom: 0; 
+}
+
+#contact_info p{
+
+    padding-left: 20px;
+
 }
 
 .intro img{
-padding-left: 10px;
-width: 35%;
+/* padding-left: 10px; */
+width: 67%;
 border-radius: 50%;
 
+}
+
+#gifone{
+    width: 17%;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 .intro a{
